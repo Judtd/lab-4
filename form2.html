@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head th:replace="public/fragments/head-elements :: headElements"></head>
+<title></title>
+</head>
+<body>
+    <link rel="stylesheet" href="form.css">
+<div th:replace="public/fragments/header :: header"></div>
+<div  class="container">
+    <style>
+        table{
+            border: 2px;
+            width: 50%;
+            border-collapse: collapse;
+        }
+       table th, table td{
+            border: 2px;
+            
+        }
+        caption{
+            text-align: right;
+            font-family: cursive;
+            
+        }
+        </style>
+    <table>
+      <thead>
+        <tr>
+            <th rowspan="3">  MUM Golden Dome Market:::SRM System</th>
+            <th  rowspan="3" > Products</th>
+            <th  rowspan="4" > Suppliers</th>
+        </tr>
+    </table>
+    <div class="zterefa">
+    
+        <div class="page">
+            Hello!
+            <button>
+                SignOut
+            </button>
+        </div>
+    </div>
+    </div>
+
+    <hr/>
+    <br>
+    </div>
+    <div>
+        <h1>New Product Form</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Product Number</label>
+                        <input class="input" type="number"><br><br>
+                        <label for="">Name</label>
+                        <input class="input" type="text"><br><br>
+                        <label for="">Unit Price</label>
+                        <input class="input" type="number" placeholder="0.0"><br><br>
+                    </td>
+                    <td>
+                        <label for="">Quantity in Stock</label>
+                        <input class="input" type="number"><br><br>
+                        <label for="">Supplier</label>
+            <select class="input">
+                <option selected>Select a Supplier </option>
+                <option>Juddy</option>
+                <option>Dani</option>
+                <option>Samri</option>
+                <option>Abi</option>
+               
+                </select>
+                <br><br>
+                <label for="">Date Supplied</label>
+                <input class="input" type="datetime" placeholder="yyyy-mm-dd"><br><br>
+                </td>
+                <div class="naytahti">
+                <button>Reset</button>
+                <button>Cancel</button>
+                <button>Add Product</button>
+                    
+                </tr>
+            </table>
+            
+            
+            
+            
+           
+            
+            
+               
+            </div>
+        </table>
+        </form>
+    
+     
+    </div>
+    </body>
